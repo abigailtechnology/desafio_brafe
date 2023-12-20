@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function enviarEmail() {
     const email = btnEmail.value;
 
-    setTimeout(function() {
+  /*setTimeout(function() {
       confirm.style.display = "block";
       enviado.textContent = email;
       btnEmail.value = "";
@@ -28,6 +28,9 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(function() {
         confirm.style.display = "none";
       }, 1000);
-    }, 1500);
+    }, 1500);*/
+
+    alert("E-mail enviado!")
+  
   }
 });
